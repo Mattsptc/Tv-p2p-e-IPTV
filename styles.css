@@ -63,7 +63,7 @@ body {
   width: 100%;
   height: 6rem;
   overflow: hidden;
-  background-color: var(--roxinho);
+  background-color: var(--azulEscuro);
 }
 
 .img-wrapper .navbar-brand {
@@ -100,40 +100,11 @@ header .menu {
 }
 
 
-li {
-  --color: var(--azulClaro); /* the border color */
-  --border: 2px;   /* the border thickness*/
-  --offset: 10px;   /* control the offset*/
-  --gap: 1px;       /* the gap on hover */
-  
-  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
-  --_o: calc(3*var(--offset));
-  padding: 
-    calc(var(--gap) + var(--border))
-    calc(var(--gap) + var(--border) + var(--offset))
-    calc(var(--gap) + var(--border) + var(--offset))
-    calc(var(--gap) + var(--border));
-  background: 
-    linear-gradient(      var(--_c)) var(--_o) var(--_o), 
-    linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
-  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
-  background-repeat: no-repeat;
-  filter: grayscale(.4);
-  transition: .5s;
-  cursor: pointer;
-}
-li:hover {
-  background-position: 0px 0px;
-  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
-  filter: grayscale(0);
-}
-
-
 
 /* Flex Container 1 */
 
 .flex-container1 {
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
     background-image: url(./img/background.jpeg);
     background-color: white;
@@ -183,6 +154,7 @@ li:hover {
     width: 400px;
     margin-right: 1em;
   }
+
   
 .euQuero {
     position: relative;
@@ -206,7 +178,8 @@ li:hover {
     margin-block: 2.5rem;
     padding: 1.4rem;
 
-    width: 12rem;
+    width: 11rem;
+    height: 9rem;
     cursor: pointer;
   }
   
@@ -219,7 +192,7 @@ li:hover {
   /* Flex Container 2 */
 
   .flex-container2 {
-    height: 350vh;
+    height: 120vh;
     width: 100vw;
     background-color: var(--white-color);
     display: flex;
@@ -251,7 +224,6 @@ li:hover {
 
 .row {
   display: flex;
-  align-items: strech;
   justify-content: center;
   flex-wrap: wrap;
   align-content: space-between;
@@ -260,9 +232,10 @@ li:hover {
 .card {
   border-radius: 10px;
   box-shadow: 0 7px 13px 7px rgba(50, 50, 50, 0.22);
-  padding: 30px;
-  margin: 30px;
-  width: 280px;
+  padding: 10px;
+  margin: 10px;
+  width: 140px;
+  height: 260px;
   transition: all 0.3s ease-out;
   text-align: center;
 }
@@ -276,16 +249,39 @@ li:hover {
   font-size: 1.2em;
 }
 
+.btn1 {
+  color: black;
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: var(--font-section1h1);
+  position: flex;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgb(27, 27, 27) 0.1em 0.1em 0.1em;
+  background-color: var(--amarelo);
+
+  border: none;
+  border-radius: 0.5rem;
+
+  margin-block: 0.2rem;
+  padding: 0.6rem;
+
+  width: 7rem;
+  cursor: pointer;
+}
+
+
 .checkImg {
   position: relative;
-  width: 16rem;
+  width: 8rem;
   align-items: center;
   float: top;
+  margin-bottom: 1rem;
 }
 
  /* Flex Container 3 */
 .flex-container3 {
-  height: 350vh;
+  height: 120vh;
   width: 100vw;
   background-color: var(--white-color);
   display: flex;
@@ -358,7 +354,8 @@ li:hover {
   color: white;
 }
 
-.fa-2x {
+.fa-whatsapp {
+  margin-left: 0.3rem;
   color: #2ECC71;
 }
 
@@ -473,6 +470,62 @@ li:hover {
   margin-bottom: 1rem;
 }
 
+/* Flex container 65 */
+
+.flex-container65 {
+  height: 120vh;
+  width: 100vw;
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.section65:before {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 5px;
+  margin-bottom: 10px;
+  background: #000;
+  left: 0;
+  top: 50%;
+  position: relative;
+}
+
+.section65 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section65 p {
+  margin-bottom: 0.75rem;
+}
+
+.downloadApp {
+  color: black;
+  margin: 1.3rem 2rem;
+  font-weight: 500;
+  font-family: var(--font-primary);
+  font-size: 1.4rem;
+  align-items: center;
+  text-align: center;
+}
+
+.imgApp {
+
+    margin-left: 1rem;
+    max-width: 10rem;
+    margin-bottom: 1rem;
+}
+
+
+
 /* Flex container 7 */
 
 .flex-container7 {
@@ -564,8 +617,10 @@ li:hover {
 .fa-2x {
   color: #4D4D4D;
   padding: 1rem;
-  margin-top: 1rem;
+/*   margin-top: 0.5rem; */
 }
+
+
 
 /* Modal */
 
@@ -605,3 +660,36 @@ li:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+/* PARA PC 
+
+li {
+  --color: var(--azulClaro); // the border color //
+  --border: 2px;   // the border thickness//
+  --offset: 10px;   // control the offset//
+  --gap: 1px;       // the gap on hover //
+  
+  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+  --_o: calc(3*var(--offset));
+  padding: 
+    calc(var(--gap) + var(--border))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border));
+  background: 
+    linear-gradient(      var(--_c)) var(--_o) var(--_o), 
+    linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+  background-repeat: no-repeat;
+  filter: grayscale(.4);
+  transition: .5s;
+  cursor: pointer;
+}
+li:hover {
+  background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
+}
+
+*/
