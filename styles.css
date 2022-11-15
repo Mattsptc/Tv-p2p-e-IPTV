@@ -99,6 +99,7 @@ header .menu {
   justify-content: space-between;
 }
 
+/* sticky */
 
 
 /* Flex Container 1 */
@@ -356,7 +357,7 @@ header .menu {
 
 .fa-whatsapp {
   margin-left: 0.3rem;
-  color: #2ECC71;
+  color: black;
 }
 
 .servidor {
