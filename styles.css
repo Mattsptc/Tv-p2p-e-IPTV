@@ -193,6 +193,8 @@ header .menu {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
   }
 
 
@@ -402,6 +404,11 @@ header .menu {
   color: #FFCA01;
   font-size: 4rem;
   margin: 1rem;
+}
+
+.card3 .cliqueaqui {
+  color: white;
+  font-size: 1em;
 }
 
 
