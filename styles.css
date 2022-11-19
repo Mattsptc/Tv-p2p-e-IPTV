@@ -877,10 +877,10 @@ header .menu {
     }
   
     .flex-container2 {
-      height: 132vh;
+      height: 142vh;
     }
     .flex-container3 {
-      height: 132vh;
+      height: 142vh;
     }
   
   
@@ -892,7 +892,7 @@ header .menu {
       width: 18rem;
     }
     .flex-container4 {
-      height: 80vh;
+      height: 100vh;
     }
   
     .flex-container65 {
@@ -931,11 +931,11 @@ header .menu {
     }
 }
 
-@media only screen and (max-width: 1840px)  and (min-width: 1341px){
+@media only screen and (max-width: 1740px)  and (min-width: 1341px){
   
     
   .flex-container1 {
-    height: 70vh;
+    height: 100vh;
   }
   header .list-items {
     max-width: 700px;
@@ -965,10 +965,10 @@ header .menu {
   }
 
   .flex-container2 {
-    height: 142vh;
+    height: 192vh;
   }
   .flex-container3 {
-    height: 142vh;
+    height: 192vh;
   }
 
 
@@ -980,16 +980,16 @@ header .menu {
     width: 26rem;
   }
   .flex-container4 {
-    height: 80vh;
+    height: 110vh;
   }
 
   .flex-container5 {
-    height: 60vh;
+    height: 110vh;
 
   }
 
   .flex-container65 {
-    height: 100vh;
+    height: 120vh;
   }
 
   .card3 {
@@ -1016,7 +1016,266 @@ header .menu {
     height: 4.5rem;
   }
   .flex-container6 {
+    height: 100vh;
+  }
+  .coluna-50 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-container7 {
+    height: 120vh;
+  }
+
+  .headerMercado {
+    font-size: 3.5rem;
+  }
+  .comoFunciona {
+    font-size: 4rem;
+  }
+
+  .sistema {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  
+  .downloadApp {
+    font-size: 2rem;
+  }
+  .section65 p {
+    font-size: 2rem;
+  }
+  .card2 {
+    width: 55rem;
+
+  }
+  .tireSuasDuvidas {
+    font-size: 4.4rem;
+  }
+
+  .perguntas {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 2240px)  and (min-width: 1741px){
+  
+    
+  .flex-container1 {
+    height: 100vh;
+  }
+  header .list-items {
+    max-width: 700px;
+}
+  .list-items li a {
+    font-size: 1.6rem;
+   
+  }
+  .headline {
+    font-size: 2.5rem;
+  }
+
+  .subheadline {
+    margin-top: 3rem;
+    font-size: 1.7rem;
+  }
+
+  .beneficiosSubHeadline {
+  font-size: 1.5rem;
+  }
+
+
+  .btn {
+    width: 18rem;
+    font-size: 1.8rem;
+    height: 14rem;
+  }
+
+  .flex-container2 {
+    height: 222vh;
+  }
+  .flex-container3 {
+    height: 222vh;
+  }
+
+
+  .card {
+    width: 520px;
+    height: 690px;
+  }
+  .checkImg {
+    width: 26rem;
+  }
+  .flex-container4 {
+    height: 110vh;
+  }
+
+  .flex-container5 {
+    height: 110vh;
+
+  }
+
+  .flex-container65 {
+    height: 120vh;
+  }
+
+  .card3 {
+    width: 600px;
+    
+  }
+  .card3 span {
+    font-size: 4rem;
+  }
+  .card3 p {
+    font-size: 2.5rem;
+  }
+
+  .ondecomecar {
+    font-size: 3.5rem;
+  }
+  .ondecomecarHeader {
+    font-size: 2.8rem;
+  }
+  .btn1 {
+    width: 16rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 4.5rem;
+  }
+  .flex-container6 {
+    height: 100vh;
+  }
+  .coluna-50 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-container7 {
+    height: 120vh;
+  }
+
+  .headerMercado {
+    font-size: 3.5rem;
+  }
+  .comoFunciona {
+    font-size: 4rem;
+  }
+
+  .sistema {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  
+  .downloadApp {
+    font-size: 2rem;
+  }
+  .section65 p {
+    font-size: 2rem;
+  }
+  .card2 {
+    width: 55rem;
+
+  }
+  .tireSuasDuvidas {
+    font-size: 4.4rem;
+  }
+
+  .perguntas {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 2740px)  and (min-width: 2241px){
+  
+  .flex-container1 {
     height: 50vh;
+  }
+  header .list-items {
+    max-width: 900px;
+}
+  .list-items li a {
+    font-size: 2.1rem;
+   
+  }
+  .headline {
+    font-size: 2.5rem;
+  }
+
+  .subheadline {
+    margin-top: 3rem;
+    font-size: 1.7rem;
+  }
+
+  .beneficiosSubHeadline {
+  font-size: 1.5rem;
+  }
+
+
+  .btn {
+    width: 18rem;
+    font-size: 1.8rem;
+    height: 14rem;
+  }
+
+  .flex-container2 {
+    height: 172vh;
+  }
+  .flex-container3 {
+    height: 172vh;
+  }
+
+
+  .card {
+    width: 800px;
+    height: 900px;
+
+  }
+  .checkImg {
+    width: 36rem;
+  }
+  .flex-container4 {
+    height: 70vh;
+  }
+
+  .flex-container5 {
+    height: 80vh;
+
+  }
+
+  .flex-container65 {
+    height: 100vh;
+  }
+
+  .card3 {
+    width: 900px;
+    height: 600px;
+    
+  }
+  .card3 span {
+    font-size: 6rem;
+  }
+  .card3 p {
+    font-size: 2.5rem;
+  }
+
+  .ondecomecar {
+    font-size: 3.5rem;
+  }
+  .ondecomecarHeader {
+    font-size: 2.8rem;
+  }
+  .btn1 {
+    width: 16rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 4.5rem;
+  }
+  .flex-container6 {
+    height: 40vh;
   }
   .coluna-50 {
     display: flex;
@@ -1056,6 +1315,144 @@ header .menu {
   }
 
   .perguntas {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
+  }
+
+  .flex-containerFooter {
+    height: 10vh;
+  }
+}
+
+@media only screen and (max-width: 4040px)  and (min-width: 2741px){
+  
+  .flex-container1 {
+    height: 80vh;
+  }
+  header .list-items {
+    max-width: 900px;
+}
+  .list-items li a {
+    font-size: 2.1rem;
+   
+  }
+  .headline {
+    font-size: 2.5rem;
+  }
+
+  .subheadline {
+    margin-top: 3rem;
+    font-size: 1.7rem;
+  }
+
+  .beneficiosSubHeadline {
+  font-size: 1.5rem;
+  }
+
+
+  .btn {
+    width: 18rem;
+    font-size: 1.8rem;
+    height: 14rem;
+  }
+
+  .flex-container2 {
+    height: 172vh;
+  }
+  .flex-container3 {
+    height: 172vh;
+  }
+
+
+  .card {
+    width: 700px;
+    height: 900px;
+    padding: 7rem;
+  }
+  .checkImg {
+    width: 32rem;
+  }
+  .flex-container4 {
+    height: 70vh;
+  }
+
+  .flex-container5 {
+    height: 80vh;
+
+  }
+
+  .flex-container65 {
+    height: 100vh;
+  }
+
+  .card3 {
+    width: 900px;
+    height: 600px;
+    
+  }
+  .card3 span {
+    font-size: 6rem;
+  }
+  .card3 p {
+    font-size: 2.5rem;
+  }
+
+  .ondecomecar {
+    font-size: 3.5rem;
+  }
+  .ondecomecarHeader {
+    font-size: 2.8rem;
+  }
+  .btn1 {
+    width: 16rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 4.5rem;
+  }
+  .flex-container6 {
+    height: 40vh;
+  }
+  .coluna-50 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-container7 {
+    height: 90vh;
+  }
+
+  .headerMercado {
+    font-size: 3.5rem;
+  }
+  .comoFunciona {
+    font-size: 4rem;
+  }
+
+  .sistema {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  
+  .downloadApp {
+    font-size: 2rem;
+  }
+  .section65 p {
+    font-size: 2rem;
+  }
+  .card2 {
+    width: 55rem;
+
+  }
+  .tireSuasDuvidas {
+    font-size: 4.4rem;
+  }
+
+  .perguntas {
+    font-size: 2.7rem;
+  }
+
+  .flex-containerFooter {
+    height: 10vh;
   }
 }
